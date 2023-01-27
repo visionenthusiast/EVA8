@@ -24,7 +24,3 @@ Q 1.d Major Steps
 * Updation of weights - Each weight is updated by taking only a fraction of step size. The fraction here is defined using learning rate. Higher the learning rate greater the step we take. As a common practice learning rates are in the range between 0 to 1.
 * Everything is run for mutiple epochs to achieve the desired result.
 
-Part 2, Solution
-[Notebook](https://github.com/visionenthusiast/EVA8/tree/main/S3/Part2)
-
-The Metrics of MOdel Traning

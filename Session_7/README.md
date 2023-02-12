@@ -12,19 +12,18 @@ https://github.com/visionenthusiast/source_code
 
 ## Model;
 
-https://github.com/partha-goswami/pytorch-cifar/blob/main/models/resnet.py
-
+https://github.com/visionenthusiast/source_code/blob/main/models/resnet.py
 
 
 ## main.py;
 
-https://github.com/partha-goswami/pytorch-cifar/blob/main/main.py
+https://github.com/visionenthusiast/source_code/blob/main/main.py
 
 
 
 ## utils.py;
 
-https://github.com/partha-goswami/pytorch-cifar/blob/main/utils.py
+https://github.com/visionenthusiast/source_code/blob/main/utils/utils.py
 
 
 
@@ -174,43 +173,28 @@ Finished Training
 
 
 
-## Validation Loss and Accuracy Progression&#x1F537;
+## Validation Loss and Accuracy Progression;
 
-![image](https://user-images.githubusercontent.com/46663815/217888365-935657b5-37e0-4da4-a4fd-1a77573eaf1c.png)
+![image](https://github.com/visionenthusiast/EVA8/blob/main/Session_7/images/training:test%20accuracy.png)
 
-## Misclassified Images Gallery&#x1F537;
+## Misclassified Images Gallery;
 
-![image](https://user-images.githubusercontent.com/46663815/217888767-a7c4f582-6165-4ff8-8de0-cb7dbb6fa9c5.png)
+![image](https://github.com/visionenthusiast/EVA8/blob/main/Session_7/images/misclassified.png)
 
-## GradCAM Outputs Gallery&#x1F537;
+## GradCAM Outputs Gallery;
 
-![image](https://user-images.githubusercontent.com/46663815/217889231-d50cd9a1-3d19-42de-ac01-4391d11d097a.png)
+![image](https://github.com/visionenthusiast/EVA8/blob/main/Session_7/images/Gradcam.png)
 
-![image](https://user-images.githubusercontent.com/46663815/218042286-cedb8dc6-6f01-4a15-9ef1-940fcc45b347.png)
 
-## Methods used in utils.py&#x1F537;
 
-| Method                             | Purpose                                                            |
-| ---------------------------------- |:------------------------------------------------------------------:|
-| get_device                         | returns current used device information (gpu/cuda or cpu)          |
-| get_config_values                  | defines config dictionary                                          |
-| get_cifar10_stats                  | returns cifar10 data stats like mean, std                          |
-| apply_albumentation                | applies albumentation transforms                                   |
-| get_data_loaders                   | returns data loaders                                               |
-| get_optimizer                      | returns optimizer                                                  |
-| get_scheduler                      | returns scheduler                                                  |
-| identify_wrong_predictions         | identifies wrong predictions                                       |
-| plot_metrics                       | plots accuracy and loss progression                                |
-| plot_gradCAM                       | plots gradCAM data                                                 |
-
-## Methods used in main.py&#x1F537;
+                                            |
+## Methods used in main.py;
 
 | Method                             | Purpose                                                            |
 | ---------------------------------- |:------------------------------------------------------------------:|
 | train                              | trains the model                                                   |
 | test                               | tests the model                                                    |
-| print_model_summary                | returns model summary                                              |
-| experiment                         | runs experiment                                                    |
+| print_model_summary                | returns model summary                                              |                                                 |
 
 ## External Reference Used&#x1F537;
 
